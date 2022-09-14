@@ -1,0 +1,20 @@
+PODS:
+  - Alamofire (5.6.2)
+  - BadgeHub (1.0.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - BadgeHub
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - BadgeHub
+
+SPEC CHECKSUMS:
+  Alamofire: d368e1ff8a298e6dde360e35a3e68e6c610e7204
+  BadgeHub: b227771329f78c37a2dae7502607ec6d00a50bd4
+
+PODFILE CHECKSUM: 2df33a4a024da3c188f9eb45162ec4d005aab4cc
+
+COCOAPODS: 1.11.3
