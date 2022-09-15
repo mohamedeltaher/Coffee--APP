@@ -16,7 +16,7 @@ import Alamofire
 class UserViewModel{
     func fatchingData(completion : @escaping (Result<[NetworkDataModel],Error>) ->Void){
         let header = [
-            "Authorization": "Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxMjM0MTI0QGdtYWlsLmNvbSIsImV4cCI6MTY2MzIxODI0MSwiaWF0IjoxNjYzMTgyMjQxfQ.4xxrY0NrLTVsZ5NQ41OEQQEQmJWUq1zX_Ge9rbNVQWQ"
+            "Authorization": "Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIzZXd3d0BnbWFpbC5jb20iLCJleHAiOjE2NjMyNjkyNTAsImlhdCI6MTY2MzIzMzI1MH0.j5ZC0oXP7csbYXLYzwCzJuiyDgsihcEjdMIZ5kXNBBw"
         ]
         AF.request("https://bm-coffee-shop-api.herokuapp.com/api/v1/product/",method: .get,headers: HTTPHeaders(header)).response { response in
        
