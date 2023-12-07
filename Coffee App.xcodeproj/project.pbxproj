@@ -12,13 +12,13 @@
 		715F769C28CA98ED005E2E07 /* SceondScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 715F769B28CA98ED005E2E07 /* SceondScreenViewController.swift */; };
 		715F769E28CA9F71005E2E07 /* THreedScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 715F769D28CA9F71005E2E07 /* THreedScreenViewController.swift */; };
 		715F76A128CAA840005E2E07 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 715F76A028CAA840005E2E07 /* TableViewCell.swift */; };
+		716187942B1517F0002E177A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 716187932B1517F0002E177A /* GoogleService-Info.plist */; };
 		718B297A28D1F8A800396611 /* MenuAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 718B297928D1F8A800396611 /* MenuAPI.swift */; };
 		718B297C28D1F8CE00396611 /* NetworkDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 718B297B28D1F8CE00396611 /* NetworkDataModel.swift */; };
 		71965B8D28C98CC400321AA0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71965B8C28C98CC400321AA0 /* AppDelegate.swift */; };
 		71965B8F28C98CC400321AA0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71965B8E28C98CC400321AA0 /* SceneDelegate.swift */; };
 		71965B9128C98CC400321AA0 /* loginScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71965B9028C98CC400321AA0 /* loginScreen.swift */; };
 		71965B9428C98CC400321AA0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71965B9228C98CC400321AA0 /* Main.storyboard */; };
-		71965B9728C98CC400321AA0 /* Coffee_App.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 71965B9528C98CC400321AA0 /* Coffee_App.xcdatamodeld */; };
 		71965B9928C98CC600321AA0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71965B9828C98CC600321AA0 /* Assets.xcassets */; };
 		71965B9C28C98CC600321AA0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71965B9A28C98CC600321AA0 /* LaunchScreen.storyboard */; };
 		71965BA728C98CC600321AA0 /* Coffee_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71965BA628C98CC600321AA0 /* Coffee_AppTests.swift */; };
@@ -32,8 +32,6 @@
 		D38283F228CF761F0020CED6 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D38283F128CF761F0020CED6 /* Constants.swift */; };
 		D38283F728CF77F00020CED6 /* TABBARViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D38283F628CF77F00020CED6 /* TABBARViewController.swift */; };
 		D383EF6728D21A9A00B67689 /* ImageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = D383EF6628D21A9A00B67689 /* ImageCache.swift */; };
-		D383EF6928D225EB00B67689 /* LoginResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = D383EF6828D225EB00B67689 /* LoginResponse.swift */; };
-		D383EF6B28D2280300B67689 /* RegisterResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = D383EF6A28D2280300B67689 /* RegisterResponse.swift */; };
 		D383EF6D28D238CF00B67689 /* UserDefualts.swift in Sources */ = {isa = PBXBuildFile; fileRef = D383EF6C28D238CF00B67689 /* UserDefualts.swift */; };
 		D383EF7128D23F8800B67689 /* UDM.swift in Sources */ = {isa = PBXBuildFile; fileRef = D383EF7028D23F8800B67689 /* UDM.swift */; };
 		D38BE54628CE15CB00DBECDA /* Users+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = D38BE54428CE15CB00DBECDA /* Users+CoreDataClass.swift */; };
@@ -68,6 +66,7 @@
 		715F769B28CA98ED005E2E07 /* SceondScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceondScreenViewController.swift; sourceTree = "<group>"; };
 		715F769D28CA9F71005E2E07 /* THreedScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = THreedScreenViewController.swift; sourceTree = "<group>"; };
 		715F76A028CAA840005E2E07 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		716187932B1517F0002E177A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		718B297928D1F8A800396611 /* MenuAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuAPI.swift; sourceTree = "<group>"; };
 		718B297B28D1F8CE00396611 /* NetworkDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkDataModel.swift; sourceTree = "<group>"; };
 		71965B8928C98CC400321AA0 /* Coffee App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Coffee App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -75,7 +74,6 @@
 		71965B8E28C98CC400321AA0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		71965B9028C98CC400321AA0 /* loginScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loginScreen.swift; sourceTree = "<group>"; };
 		71965B9328C98CC400321AA0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		71965B9628C98CC400321AA0 /* Coffee_App.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Coffee_App.xcdatamodel; sourceTree = "<group>"; };
 		71965B9828C98CC600321AA0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		71965B9B28C98CC600321AA0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		71965B9D28C98CC600321AA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -94,8 +92,6 @@
 		D38283F128CF761F0020CED6 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		D38283F628CF77F00020CED6 /* TABBARViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TABBARViewController.swift; sourceTree = "<group>"; };
 		D383EF6628D21A9A00B67689 /* ImageCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCache.swift; sourceTree = "<group>"; };
-		D383EF6828D225EB00B67689 /* LoginResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginResponse.swift; sourceTree = "<group>"; };
-		D383EF6A28D2280300B67689 /* RegisterResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterResponse.swift; sourceTree = "<group>"; };
 		D383EF6C28D238CF00B67689 /* UserDefualts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDefualts.swift; sourceTree = "<group>"; };
 		D383EF7028D23F8800B67689 /* UDM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UDM.swift; sourceTree = "<group>"; };
 		D38BE54428CE15CB00DBECDA /* Users+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Users+CoreDataClass.swift"; sourceTree = "<group>"; };
@@ -198,7 +194,7 @@
 				71965B9A28C98CC600321AA0 /* LaunchScreen.storyboard */,
 				71965B9828C98CC600321AA0 /* Assets.xcassets */,
 				71965B9D28C98CC600321AA0 /* Info.plist */,
-				71965B9528C98CC400321AA0 /* Coffee_App.xcdatamodeld */,
+				716187932B1517F0002E177A /* GoogleService-Info.plist */,
 			);
 			path = "Coffee App";
 			sourceTree = "<group>";
@@ -265,8 +261,6 @@
 			children = (
 				715DC06D28CDF6A80034118D /* coffeeDataModel.swift */,
 				718B297B28D1F8CE00396611 /* NetworkDataModel.swift */,
-				D383EF6828D225EB00B67689 /* LoginResponse.swift */,
-				D383EF6A28D2280300B67689 /* RegisterResponse.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -417,6 +411,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				71965B9C28C98CC600321AA0 /* LaunchScreen.storyboard in Resources */,
+				716187942B1517F0002E177A /* GoogleService-Info.plist in Resources */,
 				71965B9928C98CC600321AA0 /* Assets.xcassets in Resources */,
 				71965B9428C98CC400321AA0 /* Main.storyboard in Resources */,
 			);
@@ -560,14 +555,11 @@
 				71A7043628CD105E0057010E /* RegisterViewController.swift in Sources */,
 				D38BE54628CE15CB00DBECDA /* Users+CoreDataClass.swift in Sources */,
 				718B297A28D1F8A800396611 /* MenuAPI.swift in Sources */,
-				D383EF6928D225EB00B67689 /* LoginResponse.swift in Sources */,
 				71A7043E28CD34960057010E /* CartTableViewCell.swift in Sources */,
 				D383EF6D28D238CF00B67689 /* UserDefualts.swift in Sources */,
 				715F76A128CAA840005E2E07 /* TableViewCell.swift in Sources */,
 				71A7043828CD23490057010E /* profileViewController.swift in Sources */,
-				D383EF6B28D2280300B67689 /* RegisterResponse.swift in Sources */,
 				D383EF7128D23F8800B67689 /* UDM.swift in Sources */,
-				71965B9728C98CC400321AA0 /* Coffee_App.xcdatamodeld in Sources */,
 				D38BE54728CE15CB00DBECDA /* Users+CoreDataProperties.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -840,7 +832,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 384ECE8BD81F1DD274DF8F79 /* Pods-Coffee App-Coffee AppUITests.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -858,7 +849,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F1D87C02B711B2C00A9553F5 /* Pods-Coffee App-Coffee AppUITests.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -912,19 +902,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		71965B9528C98CC400321AA0 /* Coffee_App.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				71965B9628C98CC400321AA0 /* Coffee_App.xcdatamodel */,
-			);
-			currentVersion = 71965B9628C98CC400321AA0 /* Coffee_App.xcdatamodel */;
-			path = Coffee_App.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 71965B8128C98CC400321AA0 /* Project object */;
 }

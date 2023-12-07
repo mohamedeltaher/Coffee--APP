@@ -7,12 +7,13 @@
 
 import Foundation
 struct coffeeDataModel : Codable {
-    var name : String
-    var price : Int
-    var image : String
-    var size : String
-    var sugar : String
-    var isAddedToCart : Bool
-    var boughtitemscount : Int
+    var name: String
+    var description : String
+    var isMostSelling : Bool
+    var price: Int
+    let image, imageS, imageM, imageL: String
+    var size, sugar, additions: Int
+    var isAddedToCart: Bool
+    var boughtItemsCount: Int
 }
 

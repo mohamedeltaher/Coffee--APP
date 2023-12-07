@@ -8,6 +8,10 @@ target 'Coffee App' do
   # Pods for Coffee App 
     pod 'Alamofire'
     pod 'BadgeHub'
+    pod 'FirebaseAuth'
+    pod 'FirebaseFirestore'
+    pod 'FirebaseAnalytics'
+    pod 'FirebaseDatabase'
   target 'Coffee AppTests' do
     inherit! :search_paths
     # Pods for testing
